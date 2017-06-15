@@ -1,0 +1,200 @@
+{
+      "YEAR" : 2014,
+      "PLACE" : "BRA",
+      "TEAMS" : 32,
+      "MATCHES PLAYED" : 64,
+      "GOALS SCORED" : 171,
+      "AVERAGE GOALS" : 2.7,
+      "AVG. ATTENDANCE" : 52918,
+      "TOTAL ATTENDANCE" : 3429873
+    },
+    {
+      "YEAR" : 2010,
+      "PLACE" : "ZAF",
+      "TEAMS" : 32,
+      "MATCHES PLAYED" : 64,
+      "GOALS SCORED" : 145,
+      "AVERAGE GOALS" : 2.3,
+      "AVG. ATTENDANCE" : 49669,
+      "TOTAL ATTENDANCE" : 3178856
+    },
+    {
+      "YEAR" : 2006,
+      "PLACE" : "DEU",
+      "TEAMS" : 32,
+      "MATCHES PLAYED" : 64,
+      "GOALS SCORED" : 147,
+      "AVERAGE GOALS" : 2.3,
+      "AVG. ATTENDANCE" : 52491,
+      "TOTAL ATTENDANCE" : 3359439
+    },
+    {
+      "YEAR" : 2002,
+      "PLACE" : "KOR",
+      "TEAMS" : 32,
+      "MATCHES PLAYED" : 64,
+      "GOALS SCORED" : 161,
+      "AVERAGE GOALS" : 2.5,
+      "AVG. ATTENDANCE" : 42268,
+      "TOTAL ATTENDANCE" : 2705197
+    },
+    {
+      "YEAR" : 1998,
+      "PLACE" : "FRA",
+      "TEAMS" : 32,
+      "MATCHES PLAYED" : 64,
+      "GOALS SCORED" : 171,
+      "AVERAGE GOALS" : 2.7,
+      "AVG. ATTENDANCE" : 43517,
+      "TOTAL ATTENDANCE" : 2785100
+    },
+    {
+      "YEAR" : 1994,
+      "PLACE" : "USA",
+      "TEAMS" : 24,
+      "MATCHES PLAYED" : 52,
+      "GOALS SCORED" : 141,
+      "AVERAGE GOALS" : 2.7,
+      "AVG. ATTENDANCE" : 68991,
+      "TOTAL ATTENDANCE" : 3587538
+    },
+    {
+      "YEAR" : 1990,
+      "PLACE" : "ITA",
+      "TEAMS" : 24,
+      "MATCHES PLAYED" : 52,
+      "GOALS SCORED" : 115,
+      "AVERAGE GOALS" : 2.2,
+      "AVG. ATTENDANCE" : 48388,
+      "TOTAL ATTENDANCE" : 2516215
+    },
+    {
+      "YEAR" : 1986,
+      "PLACE" : "MEX",
+      "TEAMS" : 24,
+      "MATCHES PLAYED" : 52,
+      "GOALS SCORED" : 132,
+      "AVERAGE GOALS" : 2.5,
+      "AVG. ATTENDANCE" : 46039,
+      "TOTAL ATTENDANCE" : 2394031
+    },
+    {
+      "YEAR" : 1982,
+      "PLACE" : "ESP",
+      "TEAMS" : 24,
+      "MATCHES PLAYED" : 52,
+      "GOALS SCORED" : 146,
+      "AVERAGE GOALS" : 2.8,
+      "AVG. ATTENDANCE" : 40571,
+      "TOTAL ATTENDANCE" : 2109723
+    },
+    {
+      "YEAR" : 1978,
+      "PLACE" : "ARG",
+      "TEAMS" : 16,
+      "MATCHES PLAYED" : 38,
+      "GOALS SCORED" : 102,
+      "AVERAGE GOALS" : 2.7,
+      "AVG. ATTENDANCE" : 40678,
+      "TOTAL ATTENDANCE" : 1545791
+    },
+    {
+      "YEAR" : 1974,
+      "PLACE" : "DEU",
+      "TEAMS" : 16,
+      "MATCHES PLAYED" : 38,
+      "GOALS SCORED" : 97,
+      "AVERAGE GOALS" : 2.6,
+      "AVG. ATTENDANCE" : 49098,
+      "TOTAL ATTENDANCE" : 1865753
+    },
+    {
+      "YEAR" : 1970,
+      "PLACE" : "MEX",
+      "TEAMS" : 16,
+      "MATCHES PLAYED" : 32,
+      "GOALS SCORED" : 95,
+      "AVERAGE GOALS" : 3,
+      "AVG. ATTENDANCE" : 50124,
+      "TOTAL ATTENDANCE" : 1603975
+    },
+    {
+      "YEAR" : 1966,
+      "PLACE" : "GBR",
+      "TEAMS" : 16,
+      "MATCHES PLAYED" : 32,
+      "GOALS SCORED" : 89,
+      "AVERAGE GOALS" : 2.8,
+      "AVG. ATTENDANCE" : 48847,
+      "TOTAL ATTENDANCE" : 1563135
+    },
+    {
+      "YEAR" : 1962,
+      "PLACE" : "CHL",
+      "TEAMS" : 16,
+      "MATCHES PLAYED" : 32,
+      "GOALS SCORED" : 89,
+      "AVERAGE GOALS" : 2.8,
+      "AVG. ATTENDANCE" : 27911,
+      "TOTAL ATTENDANCE" : 893172
+    },
+    {
+      "YEAR" : 1958,
+      "PLACE" : "SWE",
+      "TEAMS" : 16,
+      "MATCHES PLAYED" : 35,
+      "GOALS SCORED" : 126,
+      "AVERAGE GOALS" : 3.6,
+      "AVG. ATTENDANCE" : 23423,
+      "TOTAL ATTENDANCE" : 819810
+    },
+    {
+      "YEAR" : 1954,
+      "PLACE" : "CHE",
+      "TEAMS" : 16,
+      "MATCHES PLAYED" : 26,
+      "GOALS SCORED" : 140,
+      "AVERAGE GOALS" : 5.4,
+      "AVG. ATTENDANCE" : 29561,
+      "TOTAL ATTENDANCE" : 768607
+    },
+    {
+      "YEAR" : 1950,
+      "PLACE" : "BRA",
+      "TEAMS" : 13,
+      "MATCHES PLAYED" : 22,
+      "GOALS SCORED" : 88,
+      "AVERAGE GOALS" : 4,
+      "AVG. ATTENDANCE" : 47511,
+      "TOTAL ATTENDANCE" : 1045246
+    },
+    {
+      "YEAR" : 1938,
+      "PLACE" : "FRA",
+      "TEAMS" : 15,
+      "MATCHES PLAYED" : 18,
+      "GOALS SCORED" : 84,
+      "AVERAGE GOALS" : 4.7,
+      "AVG. ATTENDANCE" : 20872,
+      "TOTAL ATTENDANCE" : 375700
+    },
+    {
+      "YEAR" : 1934,
+      "PLACE" : "ITA",
+      "TEAMS" : 16,
+      "MATCHES PLAYED" : 17,
+      "GOALS SCORED" : 70,
+      "AVERAGE GOALS" : 4.1,
+      "AVG. ATTENDANCE" : 21352,
+      "TOTAL ATTENDANCE" : 363000
+    },
+    {
+      "YEAR" : 1930,
+      "PLACE" : "URI",
+      "TEAMS" : 13,
+      "MATCHES PLAYED" : 18,
+      "GOALS SCORED" : 70,
+      "AVERAGE GOALS" : 3.9,
+      "AVG. ATTENDANCE" : 32808,
+      "TOTAL ATTENDANCE" : 590549
+    }

@@ -1,0 +1,222 @@
+[
+    {
+      "Year" : 2014,
+      "Place" : "Brazil",
+      "Place2" : "BRA",
+      "Teams" : 32,
+      "MatchesPlayed" : 64,
+      "GoalsScored" : 171,
+      "AverageGoals" : 2.7,
+      "AverageAttendanc" : 52918,
+      "TotalAttendance" : 3429873
+    },
+    {
+      "Year" : 2010,
+      "Place" : "SouthAfrica",
+      "Place2" : "ZAF",
+      "Teams" : 32,
+      "MatchesPlayed" : 64,
+      "GoalsScored" : 145,
+      "AverageGoals" : 2.3,
+      "AverageAttendanc" : 49669,
+      "TotalAttendance" : 3178856
+    },
+    {
+      "Year" : 2006,
+      "Place" : "Germany",
+      "Place2" : "DEU",
+      "Teams" : 32,
+      "MatchesPlayed" : 64,
+      "GoalsScored" : 147,
+      "AverageGoals" : 2.3,
+      "AverageAttendanc" : 52491,
+      "TotalAttendance" : 3359439
+    },
+    {
+      "Year" : 2002,
+      "Place" : "Korea/Japan",
+      "Place2" : "KOR",
+      "Teams" : 32,
+      "MatchesPlayed" : 64,
+      "GoalsScored" : 161,
+      "AverageGoals" : 2.5,
+      "AverageAttendanc" : 42268,
+      "TotalAttendance" : 2705197
+    },
+    {
+      "Year" : 1998,
+      "Place" : "France",
+      "Place2" : "FRA",
+      "Teams" : 32,
+      "MatchesPlayed" : 64,
+      "GoalsScored" : 171,
+      "AverageGoals" : 2.7,
+      "AverageAttendanc" : 43517,
+      "TotalAttendance" : 2785100
+    },
+    {
+      "Year" : 1994,
+      "Place" : "USA",
+      "Place2" : "USA",
+      "Teams" : 24,
+      "MatchesPlayed" : 52,
+      "GoalsScored" : 141,
+      "AverageGoals" : 2.7,
+      "AverageAttendanc" : 68991,
+      "TotalAttendance" : 3587538
+    },
+    {
+      "Year" : 1990,
+      "Place" : "Italy",
+      "Place2" : "ITA",
+      "Teams" : 24,
+      "MatchesPlayed" : 52,
+      "GoalsScored" : 115,
+      "AverageGoals" : 2.2,
+      "AverageAttendanc" : 48388,
+      "TotalAttendance" : 2516215
+    },
+    {
+      "Year" : 1986,
+      "Place" : "Mexico",
+      "Place2" : "MEX",
+      "Teams" : 24,
+      "MatchesPlayed" : 52,
+      "GoalsScored" : 132,
+      "AverageGoals" : 2.5,
+      "AverageAttendanc" : 46039,
+      "TotalAttendance" : 2394031
+    },
+    {
+      "Year" : 1982,
+      "Place" : "Spain",
+      "Place2" : "ESP",
+      "Teams" : 24,
+      "MatchesPlayed" : 52,
+      "GoalsScored" : 146,
+      "AverageGoals" : 2.8,
+      "AverageAttendanc" : 40571,
+      "TotalAttendance" : 2109723
+    },
+    {
+      "Year" : 1978,
+      "Place" : "Argentina",
+      "Place2" : "ARG",
+      "Teams" : 16,
+      "MatchesPlayed" : 38,
+      "GoalsScored" : 102,
+      "AverageGoals" : 2.7,
+      "AverageAttendanc" : 40678,
+      "TotalAttendance" : 1545791
+    },
+    {
+      "Year" : 1974,
+      "Place" : "Germany",
+      "Place2" : "DEU",
+      "Teams" : 16,
+      "MatchesPlayed" : 38,
+      "GoalsScored" : 97,
+      "AverageGoals" : 2.6,
+      "AverageAttendanc" : 49098,
+      "TotalAttendance" : 1865753
+    },
+    {
+      "Year" : 1970,
+      "Place" : "Mexico",
+      "Place2" : "MEX",
+      "Teams" : 16,
+      "MatchesPlayed" : 32,
+      "GoalsScored" : 95,
+      "AverageGoals" : 3,
+      "AverageAttendanc" : 50124,
+      "TotalAttendance" : 1603975
+    },
+    {
+      "Year" : 1966,
+      "Place" : "England",
+      "Place2" : "GBR",
+      "Teams" : 16,
+      "MatchesPlayed" : 32,
+      "GoalsScored" : 89,
+      "AverageGoals" : 2.8,
+      "AverageAttendanc" : 48847,
+      "TotalAttendance" : 1563135
+    },
+    {
+      "Year" : 1962,
+      "Place" : "Chile",
+      "Place2" : "CHL",
+      "Teams" : 16,
+      "MatchesPlayed" : 32,
+      "GoalsScored" : 89,
+      "AverageGoals" : 2.8,
+      "AverageAttendanc" : 27911,
+      "TotalAttendance" : 893172
+    },
+    {
+      "Year" : 1958,
+      "Place" : "Sweden",
+      "Place2" : "SWE",
+      "Teams" : 16,
+      "MatchesPlayed" : 35,
+      "GoalsScored" : 126,
+      "AverageGoals" : 3.6,
+      "AverageAttendanc" : 23423,
+      "TotalAttendance" : 819810
+    },
+    {
+      "Year" : 1954,
+      "Place" : "Switzerland",
+      "Place2" : "CHE",
+      "Teams" : 16,
+      "MatchesPlayed" : 26,
+      "GoalsScored" : 140,
+      "AverageGoals" : 5.4,
+      "AverageAttendanc" : 29561,
+      "TotalAttendance" : 768607
+    },
+    {
+      "Year" : 1950,
+      "Place" : "Brazil",
+      "Place2" : "BRA",
+      "Teams" : 13,
+      "MatchesPlayed" : 22,
+      "GoalsScored" : 88,
+      "AverageGoals" : 4,
+      "AverageAttendanc" : 47511,
+      "TotalAttendance" : 1045246
+    },
+    {
+      "Year" : 1938,
+      "Place" : "France",
+      "Place2" : "FRA",
+      "Teams" : 15,
+      "MatchesPlayed" : 18,
+      "GoalsScored" : 84,
+      "AverageGoals" : 4.7,
+      "AverageAttendanc" : 20872,
+      "TotalAttendance" : 375700
+    },
+    {
+      "Year" : 1934,
+      "Place" : "Italy",
+      "Place2" : "ITA",
+      "Teams" : 16,
+      "MatchesPlayed" : 17,
+      "GoalsScored" : 70,
+      "AverageGoals" : 4.1,
+      "AverageAttendanc" : 21352,
+      "TotalAttendance" : 363000
+    },
+    {
+      "Year" : 1930,
+      "Place" : "Uruguay",
+      "Place2" : "URY",
+      "Teams" : 13,
+      "MatchesPlayed" : 18,
+      "GoalsScored" : 70,
+      "AverageGoals" : 3.9,
+      "AverageAttendanc" : 32808,
+      "TotalAttendance" : 590549
+    }
+]

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+body { font: 12px Arial;}
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+.axis text {
+  font: 13px sans-serif;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 100px;					
+    height: 30px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+
+</style>
+<body>
+
+<div id="attendaceChart" class="container">
+</div>
+<P style="font-size:14px;position:relative;font-family:Lato;", align="left">	The total amount of sepectator who attended each year and the averge attendance of every game for that year.</p>
+<!-- load the d3.js library -->    
+<script src="./d3/d3.v3.min.js"></script>
+
+<script>
+
+// Set the dimensions of the canvas / graph
+var margin = {top: 30, right: 20, bottom: 45, left: 80},
+    width = 700 - margin.left - margin.right,
+    height = 470 - margin.top - margin.bottom;
+
+
+// Set the ranges
+var x = d3.scale.linear().range([0, width]);
+var y = d3.scale.linear().range([height, 0]);
+
+// Define the axes
+var xAxis = d3.svg.axis()
+	.scale(x)
+    .orient("bottom").ticks(5)
+	.tickFormat(d3.format("1"));
+
+var yAxis = d3.svg.axis()
+	.scale(y)
+    .orient("left").ticks(10)
+	.tickFormat(d3.format("s"));
+
+// Define the line
+var valueline = d3.svg.line()
+    .x(function(d) { return x(d.Year); })
+    .y(function(d) { return y(d.TotalAttendance); });
+	
+var valueline2 = d3.svg.line()
+    .x(function(d) { return x(d.Year); })
+    .y(function(d) { return y(d.AverageAttendance); });
+
+// Define the div for the tooltip
+var div = d3.select("#attendaceChart").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);
+
+// Adds the svg canvas
+var svg = d3.select("#attendaceChart")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+        .attr("transform", 
+              "translate(" + margin.left + "," + margin.top + ")");
+
+// Get the data
+d3.csv("WorldCupTournaments.csv", function(error, data) {
+    //console.log(data);
+    data.forEach(function(d) {
+     
+        d.TotalAttendance = +d.TotalAttendance;
+    });
+
+    // Scale the range of the data
+    x.domain(d3.extent(data, function(d) { return d.Year; }));
+    y.domain([0, d3.max(data, function(d) { return d.TotalAttendance; })]);
+
+    // Add the valueline path.
+    svg.append("path")
+        .attr("class", "line")
+        .attr("d", valueline(data));
+
+    // Add the scatterplot
+    svg.selectAll("dot")	
+        .data(data)			
+    .enter().append("circle")								
+        .attr("r", 5)		
+        .attr("cx", function(d) { return x(d.Year); })		 
+        .attr("cy", function(d) { return y(d.TotalAttendance); })
+		.attr("fill", "#E95D1C")
+		.attr('stroke','steelblue')
+        .on("mouseover", function(d) {		
+            div.transition()		
+                .duration(200)		
+                .style("opacity", .9);		
+            div	.html("Year " + (d.Year) + "<br/>"  + "Total Att." +(d.TotalAttendance))	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px");	
+            })					
+        .on("mouseout", function(d) {		
+            div.transition()		
+                .duration(500)		
+                .style("opacity", 0);	
+        });
+
+    // Add the X Axis
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis)
+		.append("text")
+		  .attr("transform", "rotate(0)")
+		  .attr("dx", "25em")
+		  .attr("dy", "3em")
+		  .style("text-anchor", "end")
+		  .text("Year");;
+
+    // Add the Y Axis
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
+		.append("text")
+		  .attr("transform", "rotate(-90)")
+		  .attr("y", 6)
+		  .attr("dx", "-15em")
+		  .attr("dy", "-4em")
+		  .style("text-anchor", "end")
+		  .text("Attendance");
+		
+	// Add the second line	
+	svg.append("path")
+        .attr("class", "line")
+        .attr("d", valueline2(data));
+
+    // Add the second scatterplot
+    svg.selectAll("dot")	
+        .data(data)			
+    .enter().append("circle")	
+        .attr("r", 5)		
+        .attr("cx", function(d) { return x(d.Year); })		 
+        .attr("cy", function(d) { return y(d.AverageAttendance); })	
+		.attr("fill", "#4B389F")
+		.attr('stroke','steelblue')
+        .on("mouseover", function(d) {		
+            div.transition()		
+                .duration(200)		
+                .style("opacity", .9);		
+            div	.html("Year " + (d.Year) + "<br/>"  + "Avg. Att." +(d.AverageAttendance))	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px");	
+            })					
+        .on("mouseout", function(d) {		
+            div.transition()		
+                .duration(500)		
+                .style("opacity", 0);	
+        });	
+	
+
+	
+
+});
+
+</script>
+</body>
